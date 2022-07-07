@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lâmpada mágica</title>
+  </head>
+  <body>
+    <div class="texto">
+      Descubra a lâmpada
+    </div>
+
+    <div class="container">
+      <button onclick="document.querySelector('#lampada').src = 'img/lampada_ligada.gif'" class="butao">Acender</button>
+      <img id="lampada" src="img/lampada_desligada.gif" alt="Lampada desligada"/>
+        <!--<img src="img/lampada_ligada.gif" alt="Lampada ligada" />!-->
+      <button onclick="document.querySelector('#lampada').src = 'img/lampada_desligada.gif'"class="butao">Apagar</button>
+    </div>
+
+    <!--<script>
+      document.querySelector('#lampada').src = 'img/lampada_ligada.gif'
+    </script>!-->
+  </body>
+</html>

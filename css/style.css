@@ -1,0 +1,39 @@
+body {
+  /*background-color: #cce6ff;*/
+  background: rgb(238,174,202);
+  background: linear-gradient(190deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 19%, rgba(252,251,255,1) 39%);
+  font-family: 'Permanent Marker', cursive;
+}
+
+html {
+  height: 100%;
+}
+
+.texto {
+  margin-top: 100px;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+
+}
+
+.butao {
+  width: 100px;
+  padding: 10px;
+  max-width: 120px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 100;
+  color: black;
+  background-color: orange;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px orange;
+
+}
